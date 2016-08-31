@@ -8,7 +8,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("viewDidLoad() called")
-        view.backgroundColor = UIColor.randomColor()
+        view.backgroundColor =
+        UIColor.randomColor()
     }
 
     override func viewWillAppear(animated: Bool) {
@@ -19,5 +20,6 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         print("viewDidAppear(_:) called")
+        
     }
 }
